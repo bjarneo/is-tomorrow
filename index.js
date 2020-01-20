@@ -1,5 +1,5 @@
 function getDMY(date) {
-    return date.getDate().toString() + (date.getMonth().toString() + 1) + date.getFullYear().toString();
+    return date.getDate().toString() + (date.getMonth() + 1).toString() + date.getFullYear().toString();
 }
 
 module.exports = function isTomorrow(date) {
