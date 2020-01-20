@@ -13,6 +13,14 @@
     "day",
     "tomorrow"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/is-tomorrow.git"
+  },
+  "homepage": "https://github.com/bjarneo/is-tomorrow",
+  "bugs": {
+    "url": "https://github.com/bjarneo/is-tomorrow/issues"
+  },
   "author": "Bjarne Oeverli",
   "license": "MIT"
 }
