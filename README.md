@@ -16,6 +16,8 @@ $ npm i --save is-tomorrow
 ## Usage
 
 ```js
+import isTomorrow from 'is-tomorrow';
+
 const today = new Date();
 const tomorrow = new Date();
 tomorrow.setDate(tomorrow.getDate() + 1);
