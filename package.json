@@ -1,0 +1,18 @@
+{
+  "name": "is-tomorrow",
+  "version": "1.0.0",
+  "description": "Is the date tomorrow?",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "keywords": [
+    "isTomorrow",
+    "is",
+    "tomorrow",
+    "day",
+    "tomorrow"
+  ],
+  "author": "Bjarne Oeverli",
+  "license": "MIT"
+}
