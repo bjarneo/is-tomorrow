@@ -1,10 +1,16 @@
+function getDMY(date) {
+    return date.getDate().toString() + (date.getMonth().toString() + 1) + date.getFullYear().toString();
+}
+
 module.exports = function isTomorrow(date) {
     if (!(date instanceof Date)) {
         throw TypeError(date + ' is not a Date object');
     }
 
-    const activeDate = new Date(date).getDate();
-    const tomorrow = (new Date().getDate() + 1);
+    const activeDate = new Date(date);
 
-    return activeDate === tomorrow;
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+
+    return getDMY(activeDate) === getDMY(tomorrow);
 };
